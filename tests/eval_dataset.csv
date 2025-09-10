@@ -1,6 +1,18 @@
 question,answer
-¿Qué cubre el plan de beneficios Northwind Health Plus?,"El plan Northwind Health Plus cubre atención médica, dental, de la vista, medicamentos recetados y servicios de salud mental."
-¿Cuál es el procedimiento para tomar una licencia por maternidad?,Debes notificar a Recursos Humanos al menos 30 días antes de la fecha esperada y presentar la documentación médica correspondiente.
-¿Qué incluye el programa PerksPlus?,"PerksPlus incluye descuentos en gimnasios, membresías de bienestar, vales de alimentos y soporte financiero."
-¿Qué responsabilidades tiene un analista de datos según el role library?,"Según el Role Library, un analista de datos debe recolectar, limpiar y analizar datos para generar reportes estratégicos para el negocio."
-¿Cuáles son los beneficios estándar de Northwind?,"Los beneficios estándar incluyen seguro médico básico, vacaciones pagadas, y plan de retiro 401(k)."
+¿Cuál es el objetivo principal del artículo MGNN: Moment Graph Neural Network for Universal Molecular Potentials?,"El objetivo principal es presentar la Red Neuronal de Gráficos de Momentos (MGNN), una arquitectura invariante a rotaciones diseñada para predecir potenciales moleculares universales como energía, fuerzas y propiedades tensoriales."
+¿Qué metodología utiliza el artículo MGNN?,"Propone una GNN que emplea polinomios de Chebyshev y representaciones de momentos para capturar relaciones espaciales entre átomos, evitando el uso de armónicos esféricos costosos."
+¿En qué se diferencia la MGNN de otros modelos previos?,"Se diferencia porque logra invariancia rotacional mediante momentos y contracciones tensoriales, en lugar de depender de acoplamientos de Clebsch-Gordan, lo que reduce el costo computacional."
+¿Qué resultados experimentales presenta la MGNN?,"Alcanza resultados state-of-the-art en benchmarks como QM9 y MD17, y muestra generalización en sistemas complejos como aleaciones de alta entropía y electrolitos amorfos."
+¿Cuál es una aplicación práctica destacada de la MGNN?,"Una aplicación destacada es la predicción precisa de espectros infrarrojos y Raman en moléculas, a un costo mucho menor que los métodos ab initio."
+
+¿Cuál es el objetivo principal del artículo Optimizing drug-target binding affinity prediction for kinase proteins?,"El objetivo es introducir TransMLP-DTBA, un modelo All-MLP Transformer eficiente para predecir afinidad de unión fármaco-proteína usando solo secuencias 1D."
+¿Qué metodología utiliza el artículo TransMLP-DTBA?,"Implementa MLP Mixing, que alterna entre Token-Mixing y Channel-Mixing MLPs, evitando el mecanismo de autoatención multi-cabeza tradicional."
+¿Por qué el artículo TransMLP-DTBA evita usar estructuras 3D?,"Porque obtener estructuras 3D es costoso y poco escalable, mientras que secuencias SMILES y de aminoácidos son accesibles y viables para cribados masivos."
+¿En qué conjuntos de datos se evalúa TransMLP-DTBA y cómo se desempeña?,"Se evalúa en Davis y KIBA, logrando métricas MSE competitivas y valores de CI y R² superiores o comparables a modelos como DeepDTA, WideDTA y GraphDTA."
+¿Cuál es una limitación del modelo TransMLP-DTBA?,"Al basarse solo en secuencias, puede perder información estructural 3D clave como sitios de unión conformacionales, limitando precisión en ciertos casos."
+
+¿Cuál es el objetivo principal del artículo A Physics-Inspired Deep Learning Framework for Ptychographic Imaging?,"El objetivo es desarrollar PPN, una red inspirada en la física que mejora la reconstrucción de imágenes pticográficas a partir de patrones de difracción."
+¿Qué mecanismo clave propone el artículo PPN para incorporar la física?,"Introduce PoCA (Polar Coordinate Attention), que modela correlaciones radiales-angulares en lugar de vecindades euclidianas."
+¿Cómo está estructurada la arquitectura del modelo PPN?,"Utiliza una arquitectura dual: una rama con bloques Vision Transformer para dependencias locales y otra con PoCA para coherencia global, fusionando ambas en un decodificador."
+¿Qué ventaja práctica demuestra PPN sobre métodos tradicionales?,"Ofrece inferencia más de 1000 veces rápida que ePIE y mantiene alta calidad incluso con baja superposición, reduciendo tiempos de adquisición y exposición a radiación."
+¿Qué problema fundamental solucionan PoCA y PPN respecto a Transformers tradicionales?,"Resuelven el desajuste geométrico, ya que los Transformers estándar trabajan en espacio euclidiano, mientras que PoCA adapta la atención a la estructura concéntrica natural de los patrones de difracción."

@@ -1,22 +1,62 @@
 [
     {
-        "question": "\u00bfQu\u00e9 cubre el plan de beneficios Northwind Health Plus?",
-        "answer": "El plan Northwind Health Plus cubre atenci\u00f3n m\u00e9dica, dental, de la vista, medicamentos recetados y servicios de salud mental."
+        "question": "¿Cuál es el objetivo principal del artículo MGNN: Moment Graph Neural Network for Universal Molecular Potentials?",
+        "answer": "El objetivo principal es presentar la Red Neuronal de Gráficos de Momentos (MGNN), una arquitectura invariante a rotaciones diseñada para predecir potenciales moleculares universales como energía, fuerzas y propiedades tensoriales."
     },
     {
-        "question": "\u00bfCu\u00e1l es el procedimiento para tomar una licencia por maternidad?",
-        "answer": "Debes notificar a Recursos Humanos al menos 30 d\u00edas antes de la fecha esperada y presentar la documentaci\u00f3n m\u00e9dica correspondiente."
+        "question": "¿Qué metodología utiliza el artículo MGNN?",
+        "answer": "Propone una GNN que emplea polinomios de Chebyshev y representaciones de momentos para capturar relaciones espaciales entre átomos, evitando el uso de armónicos esféricos costosos."
     },
     {
-        "question": "\u00bfQu\u00e9 incluye el programa PerksPlus?",
-        "answer": "PerksPlus incluye descuentos en gimnasios, membres\u00edas de bienestar, vales de alimentos y soporte financiero."
+        "question": "¿En qué se diferencia la MGNN de otros modelos previos?",
+        "answer": "Se diferencia porque logra invariancia rotacional mediante momentos y contracciones tensoriales, en lugar de depender de acoplamientos de Clebsch-Gordan, lo que reduce el costo computacional."
     },
     {
-        "question": "\u00bfQu\u00e9 responsabilidades tiene un analista de datos seg\u00fan el role library?",
-        "answer": "Seg\u00fan el Role Library, un analista de datos debe recolectar, limpiar y analizar datos para generar reportes estrat\u00e9gicos para el negocio."
+        "question": "¿Qué resultados experimentales presenta la MGNN?",
+        "answer": "Alcanza resultados state-of-the-art en benchmarks como QM9 y MD17, y muestra generalización en sistemas complejos como aleaciones de alta entropía y electrolitos amorfos."
     },
     {
-        "question": "\u00bfCu\u00e1les son los beneficios est\u00e1ndar de Northwind?",
-        "answer": "Los beneficios est\u00e1ndar incluyen seguro m\u00e9dico b\u00e1sico, vacaciones pagadas, y plan de retiro 401(k)."
+        "question": "¿Cuál es una aplicación práctica destacada de la MGNN?",
+        "answer": "Una aplicación destacada es la predicción precisa de espectros infrarrojos y Raman en moléculas, a un costo mucho menor que los métodos ab initio."
+    },
+    {
+        "question": "¿Cuál es el objetivo principal del artículo Optimizing drug-target binding affinity prediction for kinase proteins?",
+        "answer": "El objetivo es introducir TransMLP-DTBA, un modelo All-MLP Transformer eficiente para predecir afinidad de unión fármaco-proteína usando solo secuencias 1D."
+    },
+    {
+        "question": "¿Qué metodología utiliza el artículo TransMLP-DTBA?",
+        "answer": "Implementa MLP Mixing, que alterna entre Token-Mixing y Channel-Mixing MLPs, evitando el mecanismo de autoatención multi-cabeza tradicional."
+    },
+    {
+        "question": "¿Por qué el artículo TransMLP-DTBA evita usar estructuras 3D?",
+        "answer": "Porque obtener estructuras 3D es costoso y poco escalable, mientras que secuencias SMILES y de aminoácidos son accesibles y viables para cribados masivos."
+    },
+    {
+        "question": "¿En qué conjuntos de datos se evalúa TransMLP-DTBA y cómo se desempeña?",
+        "answer": "Se evalúa en Davis y KIBA, logrando métricas MSE competitivas y valores de CI y R² superiores o comparables a modelos como DeepDTA, WideDTA y GraphDTA."
+    },
+    {
+        "question": "¿Cuál es una limitación del modelo TransMLP-DTBA?",
+        "answer": "Al basarse solo en secuencias, puede perder información estructural 3D clave como sitios de unión conformacionales, limitando precisión en ciertos casos."
+    },
+    {
+        "question": "¿Cuál es el objetivo principal del artículo A Physics-Inspired Deep Learning Framework for Ptychographic Imaging?",
+        "answer": "El objetivo es desarrollar PPN, una red inspirada en la física que mejora la reconstrucción de imágenes pticográficas a partir de patrones de difracción."
+    },
+    {
+        "question": "¿Qué mecanismo clave propone el artículo PPN para incorporar la física?",
+        "answer": "Introduce PoCA (Polar Coordinate Attention), que modela correlaciones radiales-angulares en lugar de vecindades euclidianas."
+    },
+    {
+        "question": "¿Cómo está estructurada la arquitectura del modelo PPN?",
+        "answer": "Utiliza una arquitectura dual: una rama con bloques Vision Transformer para dependencias locales y otra con PoCA para coherencia global, fusionando ambas en un decodificador."
+    },
+    {
+        "question": "¿Qué ventaja práctica demuestra PPN sobre métodos tradicionales?",
+        "answer": "Ofrece inferencia más de 1000 veces rápida que ePIE y mantiene alta calidad incluso con baja superposición, reduciendo tiempos de adquisición y exposición a radiación."
+    },
+    {
+        "question": "¿Qué problema fundamental solucionan PoCA y PPN respecto a Transformers tradicionales?",
+        "answer": "Resuelven el desajuste geométrico, ya que los Transformers estándar trabajan en espacio euclidiano, mientras que PoCA adapta la atención a la estructura concéntrica natural de los patrones de difracción."
     }
 ]
